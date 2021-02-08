@@ -26,7 +26,7 @@ section#bloc-4-portfolio .container .row article:nth-child(3) a img, section#blo
 section#bloc-3-what-i-do .container .row article h2{color: #FFF !important;}
 
 /* Correction pour la section CTA */
-section#bloc-5-cta .container .row{padding: 40px 0; max-width: 700px; margin: auto; border-radius: 60px;}
+section#bloc-5-cta .container .row{padding: 40px 0; max-width: 700px; margin: auto; border-radius: 60px; background-color: rgba(250, 250, 250, 0.85);}
 section#bloc-5-cta .container .row a{position: relative;}
 
 
@@ -49,6 +49,6 @@ section#bloc-7 .container form .form-group input, section#bloc-7 .container form
 
 /* Corrections pour le footer */
 footer a.social {visibility: hidden;}
-footer a.social span{display: block; visibility: initial;}
+footer a.social span{display: block ; visibility: initial;}
 footer .container article p{text-align: center;}
-footer .container article p{text-align: center;}
+footer span.fa:hover{color: rgba(250, 250, 250, 0.85) !important;}
