@@ -48,6 +48,6 @@ section#bloc-7 .container form .form-group input, section#bloc-7 .container form
 
 
 /* Corrections pour le footer */
-footer a.social span em{display: none;}
+footer a.social em{display: none;}
 footer .container article p{text-align: center;}
 footer .container article p{text-align: center;}
