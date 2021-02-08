@@ -3,6 +3,9 @@ header .container .navbar div ul li a:hover{
     color: #F3976C !important;
 }
 
+/* On masque le mot de navigation pour le burger */
+header .container .navbar #nav-toggle em{display: none;}
+
 /* Page d'accueil */
 
 /* Correction pour la section hero */
@@ -10,6 +13,7 @@ section#bloc-1-hero .container .row article{padding: 40px 0; border-radius: 60px
 
 /* Corrections pour la section services */
 section#bloc-2-services .container .row .presentation {padding: 0 2rem; font-size: 1.8rem;}
+section#bloc-2-services .container figure figcaption{color: rgb(87,87,87);}
 
 /* Correction pour la section what i do */
 section#bloc-3-what-i-do .container .row{border-radius: 60px;}
@@ -37,10 +41,13 @@ section#bloc-6 .container .row article h1{text-align: center; color: #F3976C !im
 section#bloc-6 .container .row article p{text-align: center; color: #FFF !important;}
 
 /* Section formulaire */
-section#bloc-7{}
 section#bloc-7 .container{margin: auto; padding-top: 50px;}
 section#bloc-7 .container form .form-group{margin-bottom: 20px;}
 section#bloc-7 .container form .form-group label {display: block; margin-bottom: 5px;}
 section#bloc-7 .container form .form-group input, section#bloc-7 .container form .form-group textarea {padding: 10px; min-width: 300px;}
 
-.contact footer .container article p{text-align: center;}
+
+/* Corrections pour le footer */
+footer a.social span em{display: none;}
+footer .container article p{text-align: center;}
+footer .container article p{text-align: center;}
